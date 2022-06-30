@@ -1,0 +1,111 @@
+
+    .bio {
+        border-radius: 0px;
+        font-family: Arial;
+        color: #000000;
+        font-size: 25px;
+        padding: 40px;
+        background: #94c1e0;
+        border: dotted #99cceb 0px;
+        text-decoration: none;
+        position:absolute;
+        width: 262px;
+        height: 100px;
+        top: 10px;
+        text-align: center;
+
+      }
+      
+      .bio:hover {
+        background: #d572e0;
+        text-decoration: none;
+      }
+      .photo {
+        border-radius: 0px;
+        font-family: Arial;
+        color: #000000;
+        font-size: 25px;
+        padding: 40px;
+        background:palevioletred;
+        border: dotted #99cceb 0px;
+        text-decoration: none;
+        position:absolute;
+        left: 700px;
+        top: 10px;
+        width: 260px;
+        height: 100px;
+        text-align: center;
+
+      }
+      
+      .photo:hover {
+        background:firebrick;
+        text-decoration: none;
+      }
+      .edu{
+        border-radius: 0px;
+        font-family: Arial;
+        color: #000000;
+        font-size: 25px;
+        padding: 40px;
+        background:burlywood;
+        border: dotted #99cceb 0px;
+        text-decoration: none;
+        position: absolute;
+        width: 270px;
+        height: 100px;
+        text-align: center;
+        left: 350px;
+        top: 190px;
+
+      }
+      
+      .edu:hover {
+        background:coral;
+        text-decoration: none;
+      }
+      .hobby{
+        border-radius: 0px;
+        font-family: Arial;
+        color: #000000;
+        font-size: 25px;
+        padding: 40px;
+        background:seagreen;
+        border: dotted #99cceb 0px;
+        text-decoration: none;
+        position: absolute;
+        width: 262px;
+        height: 100px;
+        text-align: center;
+        top: 370px;
+
+      }
+      
+      .hobby:hover {
+        background:saddlebrown;
+        text-decoration: none;
+      }
+      .contact{
+        border-radius: 0px;
+        font-family: Arial;
+        color: #000000;
+        font-size: 25px;
+        padding: 40px;
+        background:rgb(189, 136, 227);
+        border: dotted #99cceb 0px;
+        text-decoration: none;
+        position: absolute;
+        width: 270px;
+        height: 100px;
+        text-align: center;
+        left: 700px;
+        top: 370px;
+
+      }
+      
+      .contact:hover {
+        background:orange;
+        text-decoration: none;
+      }
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/contact.css">
+</head>
+<body>
+    <div class="container">
+    <form action="mailto:heli.prajapati02@gmail.com"> 
+        <h2>Contact information Form </h2>
+        <P>Required fields are followed by *</P>
+        <p> Name: * <input type="text" name="name" required></p>
+            <fieldset>
+                <legend>Gender *</legend>
+            <p>Male <input type="radio" name="gender" id="male" required>
+            Female <input type="radio" name="gender" id="female" required>
+        Other <input type="radio" name="gender" id="Other" required></p>
+        </fieldset>
+        <p>Address: <textarea name="address" id="address" cols="50" rows="2"></textarea>
+        </p>
+        <p>Email: * <input type="email" name="email" id="email" required></p>
+        <p>Phone number: * <input type="tel" name="tel" id="tel" required></p>
+    <p> Date: * <input type="date" name="date" id="date" required></p>
+    <p> Comments: <input type="text"></p>
+    <P>Rate my Page:
+        <select name="rate_type" id="rate_type">
+            <option value="">--select Option--</option>
+            <option value="Good">Good</option>
+            <option value="Bad">Bad</option>
+        </select>
+    </P>
+    <input type="submit" value="sumbit">
+    </form>
+    </div>
+    
+</body>
+</html>
